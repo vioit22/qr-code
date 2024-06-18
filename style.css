@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@400;500;600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto+Condensed:wght@100;200;300;400;500;600&display=swap');
+body{
+    font-family: Playfair Display, sans-serif;
+    background: linear-gradient(rgb(0, 217, 255), rgb(5, 105, 255), rgb(17, 31, 224));
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(7, 51, 170);
+}
+input#text{
+    color:rgb(7, 51, 170);
+    border: 2px solid black;
+    font-family: Roboto-Condensed, sans-serif;
+    cursor: text;
+    font-size: large;
+    width: 90%;
+    background-color: transparent;
+    padding: 5px;
+}
+input::placeholder{
+    color: rgb(17, 31, 224);
+}
+input#button{
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Protest Strike, sans-serif;
+    font-size: 1rem;
+    box-shadow: inherit;
+}
+div#qrcode{
+    width:200px;
+    height:200px;
+    margin: auto;
+}
